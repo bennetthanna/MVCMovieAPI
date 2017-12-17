@@ -17,4 +17,7 @@
   <ItemGroup>
     <Folder Include="Views\HelloWorld\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\MovieGenreViewModel.cs" />
+  </ItemGroup>
 </Project>
