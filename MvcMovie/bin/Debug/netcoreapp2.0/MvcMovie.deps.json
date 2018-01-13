@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "cd945696cff90a9745d51031f9ca805e22e8725c"
+    "signature": "e3f06f5f5f0d8f3d9029defeb1c28b573ebe436d"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
       "MvcMovie/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.DotNet.Watcher.Tools": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0"
         },
@@ -1599,6 +1600,17 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
+        }
+      },
+      "Microsoft.DotNet.Watcher.Tools/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/dotnet-watch.dll": {}
+        },
+        "compile": {
+          "lib/netcoreapp2.0/dotnet-watch.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.0.0": {
@@ -4944,6 +4956,13 @@
       "sha512": "sha512-l5tDOSom+qpx4pDEoIcqMHnGC7jJ4Uq1DiJ6St/bn0rb5xIh/q4u7OQTIcE1k+1o7E0lYnJA4ZluzS6HGFr4zw==",
       "path": "microsoft.dotnet.platformabstractions/2.0.0",
       "hashPath": "microsoft.dotnet.platformabstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.Watcher.Tools/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-//UgdKyy1W4PHxC77HzhxEG/drLu9UplJe0UBa0161DH947quz+EJ0AEVCjDlFC7FnJKXfr5yDIYcuZUn5ux4Q==",
+      "path": "microsoft.dotnet.watcher.tools/2.0.0",
+      "hashPath": "microsoft.dotnet.watcher.tools.2.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.0.0": {
       "type": "package",
